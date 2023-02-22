@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<htmllang="en"
+	xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Sleep Profile</title>
+<link rel = "stylesheet" type = "text/css" href = "profile_styling.css">
+<link rel="stylesheet" type="text/css" th:href="@{../static/assets/css/profile_styling.css}">
+<link
+	href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+	rel="stylesheet"
+	integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+	crossorigin="anonymous">
+	
+	     <style>
+     
+     .bg-dark {
+    background-color: #4A306D !important;
+     
+     }
+     .table-dark {
+    --bs-table-bg: #4A306D;
+    }
+    
+    body {
+     background-color:  #2D2D2F;
+    }
+    
+    
+    .table {
+     background-color: #e8e6eb; 
+    }
+    
+    .btn-outline-danger {
+    color: #e8e6eb;
+    border-color: #e8e6eb;
+}
+    
+   .btn {
+   
+   background-color: #4A306D;
+   }
+    
+    	.title {
+    text-align: center;
+   color:white;
+}
+
+th { background-color: #ffd78c; }
+
+p {
+color:white;}
+ 
+ h3 {
+ color:white;
+ }
+     </style>  
+	
+	
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-dark">
+
+	<div class="container">
+		<button class="navbar-toggler" type="button"
+			data-mdb-toggle="collapse" data-mdb-target="#navbarButtonsExample"
+			aria-controls="navbarButtonsExample" aria-expanded="false"
+			aria-label="Toggle navigation">
+			<i class="fas fa-bars"></i>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarButtonsExample">
+
+			<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+				<li class="nav-item"><a class="nav-link" th:href="@{/hub}"><b>SynchroSleep</b></a>
+				</li>
+			</ul>
+			<div class="d-flex align-items-center">
+				<a th:href ="@{/}" type="button" class="btn btn-outline-danger">Logout</a>
+			</div>
+		</div>
+	</div>
+</nav>
+
+  <h1 class="title">Welcome to your Sleep Journey</h1>
+ 
+ 
+<div class="container">
+<div class="row">
+
+  
+ 
+<div class="col-md-6">
+ <h3>Your current profile</h3>
+<p><b>Name:</b></p>
+<p th:text = "${profile.pName}"></p>
+<p><b>Age:</b></p>
+<p th:text = "${profile.pAge}"></p>
+<p><b>Sex:</b></p>
+<p th:text = "${profile.pSex}"></p>
+<p><b>Weight (lbs):</b></p>
+<p th:text = "${profile.pWeight}"></p>
+<p><b>Activity Level</b></p>
+<p th:text = "${profile.pActivity}"></p>
+</div>
+   
+<div class="col-md-6">
+<br>
+<br>
+<h3>Let's get to sleep!</h3>
+<a th:href ="@{/night/{pId}(pId=${profile.pId})}" type="button" class="btn btn-outline-danger">Synchronize my Sleep</a>
+<br>
+<br>
+<h3>Dream Journal</h3>
+
+
+<a th:href ="@{/dream}" type="button" class="btn btn-outline-danger">My Dream Journal</a>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+<h3 class="title">Your journey So far:</h3>
+<table class="table table-bordered table-hover">
+        <thead class="table-dark">
+            <tr>
+                <th>Bedtime</th>
+                <th>Wake-up</th>
+                <th>Hours slept</th>
+                <th>Minutes slept</th>
+               
+                
+            </tr>
+        </thead>
+        <tbody>
+            <tr th:each = "night : ${nights}">
+              <td th:text = "${night.nBed}"></td>
+                <td th:text = "${night.nWake}"></td>
+                <td th:text = "${night.nHours}"></td>
+                <td th:text = "${night.nMinutes}"></td>
+                
+            </tr>
+        </tbody>
+    </table>
+
+
+
+
+
+
+
+
+
+</body>
+</html>

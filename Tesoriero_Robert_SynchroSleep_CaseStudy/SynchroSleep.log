@@ -1,0 +1,882 @@
+2023-02-22T08:56:48.444-05:00 WARN  [-] 2023-02-22 08:56:48,444 [HikariPool-1 housekeeper] c.z.h.p.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=11h24m57s692ms831µs700ns).
+ 59256 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=11h24m57s692ms831µs700ns).
+2023-02-22T08:58:46.265-05:00 WARN  [-] 2023-02-22 08:58:46,265 [http-nio-8080-exec-2] o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "update_style.css"]
+ 59256 --- [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "update_style.css"]
+2023-02-22T09:33:25.539-05:00 INFO  [-] 2023-02-22 09:33:25,539 [restartedMain] c.m.d.CapstoneCurrentApplication - Starting CapstoneCurrentApplication using Java 17.0.4.1 with PID 68660 (C:\Users\17187\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\CapstoneCurrent\target\classes started by 17187 in C:\Users\17187\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\CapstoneCurrent)
+ 68660 --- [restartedMain] c.m.demo.CapstoneCurrentApplication      : Starting CapstoneCurrentApplication using Java 17.0.4.1 with PID 68660 (C:\Users\17187\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\CapstoneCurrent\target\classes started by 17187 in C:\Users\17187\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\CapstoneCurrent)
+2023-02-22T09:33:25.540-05:00 INFO  [-] 2023-02-22 09:33:25,540 [restartedMain] c.m.d.CapstoneCurrentApplication - No active profile set, falling back to 1 default profile: "default"
+ 68660 --- [restartedMain] c.m.demo.CapstoneCurrentApplication      : No active profile set, falling back to 1 default profile: "default"
+2023-02-22T09:33:25.573-05:00 INFO  [-] 2023-02-22 09:33:25,573 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+ 68660 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-02-22T09:33:25.574-05:00 INFO  [-] 2023-02-22 09:33:25,574 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+ 68660 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-02-22T09:33:26.257-05:00 INFO  [-] 2023-02-22 09:33:26,257 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ 68660 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-22T09:33:26.305-05:00 INFO  [-] 2023-02-22 09:33:26,305 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 41 ms. Found 5 JPA repository interfaces.
+ 68660 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 41 ms. Found 5 JPA repository interfaces.
+2023-02-22T09:33:26.740-05:00 INFO  [-] 2023-02-22 09:33:26,740 [restartedMain] o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+ 68660 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-02-22T09:33:26.748-05:00 INFO  [-] 2023-02-22 09:33:26,748 [restartedMain] o.a.c.c.StandardService - Starting service [Tomcat]
+ 68660 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-22T09:33:26.748-05:00 INFO  [-] 2023-02-22 09:33:26,748 [restartedMain] o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+ 68660 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-22T09:33:26.797-05:00 INFO  [-] 2023-02-22 09:33:26,797 [restartedMain] o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+ 68660 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-22T09:33:26.797-05:00 INFO  [-] 2023-02-22 09:33:26,797 [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1223 ms
+ 68660 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1223 ms
+2023-02-22T09:33:26.963-05:00 INFO  [-] 2023-02-22 09:33:26,963 [restartedMain] o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+ 68660 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-22T09:33:27.006-05:00 INFO  [-] 2023-02-22 09:33:27,006 [restartedMain] o.h.Version - HHH000412: Hibernate ORM core version 6.1.6.Final
+ 68660 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-02-22T09:33:27.145-05:00 WARN  [-] 2023-02-22 09:33:27,145 [restartedMain] o.h.o.deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+ 68660 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-02-22T09:33:27.240-05:00 INFO  [-] 2023-02-22 09:33:27,240 [restartedMain] c.z.h.HikariDataSource - HikariPool-1 - Starting...
+ 68660 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-22T09:33:27.498-05:00 INFO  [-] 2023-02-22 09:33:27,498 [restartedMain] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@58c01fff
+ 68660 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@58c01fff
+2023-02-22T09:33:27.500-05:00 INFO  [-] 2023-02-22 09:33:27,500 [restartedMain] c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+ 68660 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-22T09:33:27.514-05:00 INFO  [-] 2023-02-22 09:33:27,514 [restartedMain] SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+ 68660 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-02-22T09:33:27.514-05:00 WARN  [-] 2023-02-22 09:33:27,514 [restartedMain] o.h.o.deprecation - HHH90000026: MySQL5Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+ 68660 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL5Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-02-22T09:33:28.334-05:00 INFO  [-] 2023-02-22 09:33:28,334 [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+ 68660 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-22T09:33:28.341-05:00 INFO  [-] 2023-02-22 09:33:28,341 [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ 68660 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-22T09:33:28.662-05:00 WARN  [-] 2023-02-22 09:33:28,662 [restartedMain] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ 68660 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-22T09:33:28.961-05:00 WARN  [-] 2023-02-22 09:33:28,961 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+ 68660 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2023-02-22T09:33:28.965-05:00 INFO  [-] 2023-02-22 09:33:28,965 [restartedMain] o.s.b.a.e.w.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+ 68660 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-02-22T09:33:29.010-05:00 WARN  [-] 2023-02-22 09:33:29,010 [restartedMain] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+ 68660 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2023-02-22T09:33:29.012-05:00 INFO  [-] 2023-02-22 09:33:29,012 [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+ 68660 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-22T09:33:29.014-05:00 INFO  [-] 2023-02-22 09:33:29,014 [restartedMain] c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+ 68660 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-02-22T09:33:29.018-05:00 INFO  [-] 2023-02-22 09:33:29,018 [restartedMain] c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
+ 68660 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-02-22T09:33:29.020-05:00 INFO  [-] 2023-02-22 09:33:29,020 [restartedMain] o.a.c.c.StandardService - Stopping service [Tomcat]
+ 68660 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-22T09:33:29.033-05:00 INFO  [-] 2023-02-22 09:33:29,033 [restartedMain] o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+ 68660 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-02-22T09:33:29.047-05:00 ERROR [-] 2023-02-22 09:33:29,047 [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+ 68660 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2023-02-22T09:33:31.130-05:00 INFO  [-] 2023-02-22 09:33:31,130 [RMI TCP Connection(84)-127.0.0.1] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+ 59256 --- [RMI TCP Connection(84)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-02-22T09:33:31.160-05:00 INFO  [-] 2023-02-22 09:33:31,160 [RMI TCP Connection(84)-127.0.0.1] o.a.c.c.StandardService - Stopping service [Tomcat]
+ 59256 --- [RMI TCP Connection(84)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-22T09:33:31.163-05:00 INFO  [-] 2023-02-22 09:33:31,163 [RMI TCP Connection(84)-127.0.0.1] o.a.c.c.C.[.[.[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+ 59256 --- [RMI TCP Connection(84)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-02-22T09:33:31.178-05:00 INFO  [-] 2023-02-22 09:33:31,178 [RMI TCP Connection(84)-127.0.0.1] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+ 59256 --- [RMI TCP Connection(84)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-22T09:33:31.186-05:00 INFO  [-] 2023-02-22 09:33:31,186 [RMI TCP Connection(84)-127.0.0.1] c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+ 59256 --- [RMI TCP Connection(84)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-02-22T09:33:31.190-05:00 INFO  [-] 2023-02-22 09:33:31,190 [RMI TCP Connection(84)-127.0.0.1] c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
+ 59256 --- [RMI TCP Connection(84)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-02-22T09:33:38.112-05:00 INFO  [-] 2023-02-22 09:33:38,112 [restartedMain] c.m.d.CapstoneCurrentApplication - Starting CapstoneCurrentApplication using Java 17.0.4.1 with PID 22160 (C:\Users\17187\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\CapstoneCurrent\target\classes started by 17187 in C:\Users\17187\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\CapstoneCurrent)
+ 22160 --- [restartedMain] c.m.demo.CapstoneCurrentApplication      : Starting CapstoneCurrentApplication using Java 17.0.4.1 with PID 22160 (C:\Users\17187\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\CapstoneCurrent\target\classes started by 17187 in C:\Users\17187\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\CapstoneCurrent)
+2023-02-22T09:33:38.114-05:00 INFO  [-] 2023-02-22 09:33:38,114 [restartedMain] c.m.d.CapstoneCurrentApplication - No active profile set, falling back to 1 default profile: "default"
+ 22160 --- [restartedMain] c.m.demo.CapstoneCurrentApplication      : No active profile set, falling back to 1 default profile: "default"
+2023-02-22T09:33:38.142-05:00 INFO  [-] 2023-02-22 09:33:38,142 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+ 22160 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-02-22T09:33:38.142-05:00 INFO  [-] 2023-02-22 09:33:38,142 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+ 22160 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-02-22T09:33:38.685-05:00 INFO  [-] 2023-02-22 09:33:38,685 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ 22160 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-22T09:33:38.726-05:00 INFO  [-] 2023-02-22 09:33:38,726 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 36 ms. Found 5 JPA repository interfaces.
+ 22160 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 36 ms. Found 5 JPA repository interfaces.
+2023-02-22T09:33:39.097-05:00 INFO  [-] 2023-02-22 09:33:39,097 [restartedMain] o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+ 22160 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-02-22T09:33:39.104-05:00 INFO  [-] 2023-02-22 09:33:39,104 [restartedMain] o.a.c.c.StandardService - Starting service [Tomcat]
+ 22160 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-22T09:33:39.104-05:00 INFO  [-] 2023-02-22 09:33:39,104 [restartedMain] o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+ 22160 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-22T09:33:39.144-05:00 INFO  [-] 2023-02-22 09:33:39,144 [restartedMain] o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+ 22160 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-22T09:33:39.144-05:00 INFO  [-] 2023-02-22 09:33:39,144 [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1002 ms
+ 22160 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1002 ms
+2023-02-22T09:33:39.299-05:00 INFO  [-] 2023-02-22 09:33:39,299 [restartedMain] o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+ 22160 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-22T09:33:39.339-05:00 INFO  [-] 2023-02-22 09:33:39,339 [restartedMain] o.h.Version - HHH000412: Hibernate ORM core version 6.1.6.Final
+ 22160 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-02-22T09:33:39.467-05:00 WARN  [-] 2023-02-22 09:33:39,467 [restartedMain] o.h.o.deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+ 22160 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-02-22T09:33:39.551-05:00 INFO  [-] 2023-02-22 09:33:39,551 [restartedMain] c.z.h.HikariDataSource - HikariPool-1 - Starting...
+ 22160 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-22T09:33:39.777-05:00 INFO  [-] 2023-02-22 09:33:39,777 [restartedMain] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@65b620
+ 22160 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@65b620
+2023-02-22T09:33:39.779-05:00 INFO  [-] 2023-02-22 09:33:39,779 [restartedMain] c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+ 22160 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-22T09:33:39.792-05:00 INFO  [-] 2023-02-22 09:33:39,792 [restartedMain] SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+ 22160 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-02-22T09:33:39.793-05:00 WARN  [-] 2023-02-22 09:33:39,793 [restartedMain] o.h.o.deprecation - HHH90000026: MySQL5Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+ 22160 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL5Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-02-22T09:33:40.531-05:00 INFO  [-] 2023-02-22 09:33:40,531 [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+ 22160 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-22T09:33:40.537-05:00 INFO  [-] 2023-02-22 09:33:40,537 [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ 22160 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-22T09:33:40.849-05:00 WARN  [-] 2023-02-22 09:33:40,849 [restartedMain] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ 22160 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-22T09:33:41.164-05:00 INFO  [-] 2023-02-22 09:33:41,164 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+ 22160 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-22T09:33:41.168-05:00 INFO  [-] 2023-02-22 09:33:41,168 [restartedMain] o.s.b.a.e.w.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+ 22160 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-02-22T09:33:41.229-05:00 INFO  [-] 2023-02-22 09:33:41,229 [restartedMain] o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+ 22160 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-22T09:33:41.240-05:00 INFO  [-] 2023-02-22 09:33:41,240 [restartedMain] c.m.d.CapstoneCurrentApplication - Started CapstoneCurrentApplication in 3.389 seconds (process running for 3.909)
+ 22160 --- [restartedMain] c.m.demo.CapstoneCurrentApplication      : Started CapstoneCurrentApplication in 3.389 seconds (process running for 3.909)
+2023-02-22T09:33:50.855-05:00 INFO  [-] 2023-02-22 09:33:50,855 [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 22160 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-22T09:33:50.856-05:00 INFO  [-] 2023-02-22 09:33:50,856 [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+ 22160 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-22T09:33:50.857-05:00 INFO  [-] 2023-02-22 09:33:50,857 [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet - Completed initialization in 1 ms
+ 22160 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-02-22T09:33:51.240-05:00 WARN  [-] 2023-02-22 09:33:51,240 [http-nio-8080-exec-2] o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "profile_styling.css"]
+ 22160 --- [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "profile_styling.css"]
+2023-02-22T09:33:51.295-05:00 WARN  [-] 2023-02-22 09:33:51,295 [http-nio-8080-exec-3] o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "profile_styling.css"]
+ 22160 --- [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "profile_styling.css"]
+2023-02-22T09:38:05.723-05:00 WARN  [-] 2023-02-22 09:38:05,723 [http-nio-8080-exec-5] o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "profile_styling.css"]
+ 22160 --- [http-nio-8080-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "profile_styling.css"]
+2023-02-22T09:44:39.054-05:00 WARN  [-] 2023-02-22 09:44:39,054 [http-nio-8080-exec-9] o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "profile_styling.css"]
+ 22160 --- [http-nio-8080-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "profile_styling.css"]
+2023-02-22T09:46:29.369-05:00 INFO  [-] 2023-02-22 09:46:29,369 [restartedMain] c.m.d.CapstoneCurrentApplication - Starting CapstoneCurrentApplication using Java 17.0.4.1 with PID 50472 (C:\Users\17187\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\CapstoneCurrent\target\classes started by 17187 in C:\Users\17187\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\CapstoneCurrent)
+ 50472 --- [restartedMain] c.m.demo.CapstoneCurrentApplication      : Starting CapstoneCurrentApplication using Java 17.0.4.1 with PID 50472 (C:\Users\17187\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\CapstoneCurrent\target\classes started by 17187 in C:\Users\17187\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\CapstoneCurrent)
+2023-02-22T09:46:29.371-05:00 INFO  [-] 2023-02-22 09:46:29,371 [restartedMain] c.m.d.CapstoneCurrentApplication - No active profile set, falling back to 1 default profile: "default"
+ 50472 --- [restartedMain] c.m.demo.CapstoneCurrentApplication      : No active profile set, falling back to 1 default profile: "default"
+2023-02-22T09:46:29.400-05:00 INFO  [-] 2023-02-22 09:46:29,400 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+ 50472 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-02-22T09:46:29.401-05:00 INFO  [-] 2023-02-22 09:46:29,401 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+ 50472 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-02-22T09:46:29.971-05:00 INFO  [-] 2023-02-22 09:46:29,971 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ 50472 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-22T09:46:30.012-05:00 INFO  [-] 2023-02-22 09:46:30,012 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 36 ms. Found 5 JPA repository interfaces.
+ 50472 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 36 ms. Found 5 JPA repository interfaces.
+2023-02-22T09:46:30.390-05:00 INFO  [-] 2023-02-22 09:46:30,390 [restartedMain] o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+ 50472 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-02-22T09:46:30.397-05:00 INFO  [-] 2023-02-22 09:46:30,397 [restartedMain] o.a.c.c.StandardService - Starting service [Tomcat]
+ 50472 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-22T09:46:30.397-05:00 INFO  [-] 2023-02-22 09:46:30,397 [restartedMain] o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+ 50472 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-22T09:46:30.443-05:00 INFO  [-] 2023-02-22 09:46:30,443 [restartedMain] o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+ 50472 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-22T09:46:30.444-05:00 INFO  [-] 2023-02-22 09:46:30,444 [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1043 ms
+ 50472 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1043 ms
+2023-02-22T09:46:30.588-05:00 INFO  [-] 2023-02-22 09:46:30,588 [restartedMain] o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+ 50472 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-22T09:46:30.623-05:00 INFO  [-] 2023-02-22 09:46:30,623 [restartedMain] o.h.Version - HHH000412: Hibernate ORM core version 6.1.6.Final
+ 50472 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-02-22T09:46:30.742-05:00 WARN  [-] 2023-02-22 09:46:30,742 [restartedMain] o.h.o.deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+ 50472 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-02-22T09:46:30.828-05:00 INFO  [-] 2023-02-22 09:46:30,828 [restartedMain] c.z.h.HikariDataSource - HikariPool-1 - Starting...
+ 50472 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-22T09:46:31.058-05:00 INFO  [-] 2023-02-22 09:46:31,058 [restartedMain] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@494be5a3
+ 50472 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@494be5a3
+2023-02-22T09:46:31.060-05:00 INFO  [-] 2023-02-22 09:46:31,060 [restartedMain] c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+ 50472 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-22T09:46:31.074-05:00 INFO  [-] 2023-02-22 09:46:31,074 [restartedMain] SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+ 50472 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-02-22T09:46:31.074-05:00 WARN  [-] 2023-02-22 09:46:31,074 [restartedMain] o.h.o.deprecation - HHH90000026: MySQL5Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+ 50472 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL5Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-02-22T09:46:31.835-05:00 INFO  [-] 2023-02-22 09:46:31,835 [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+ 50472 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-22T09:46:31.843-05:00 INFO  [-] 2023-02-22 09:46:31,843 [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ 50472 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-22T09:46:32.190-05:00 WARN  [-] 2023-02-22 09:46:32,190 [restartedMain] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ 50472 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-22T09:46:32.490-05:00 WARN  [-] 2023-02-22 09:46:32,490 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+ 50472 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2023-02-22T09:46:32.494-05:00 INFO  [-] 2023-02-22 09:46:32,494 [restartedMain] o.s.b.a.e.w.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+ 50472 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-02-22T09:46:32.538-05:00 WARN  [-] 2023-02-22 09:46:32,538 [restartedMain] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+ 50472 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2023-02-22T09:46:32.541-05:00 INFO  [-] 2023-02-22 09:46:32,541 [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+ 50472 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-22T09:46:32.543-05:00 INFO  [-] 2023-02-22 09:46:32,543 [restartedMain] c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+ 50472 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-02-22T09:46:32.546-05:00 INFO  [-] 2023-02-22 09:46:32,546 [restartedMain] c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
+ 50472 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-02-22T09:46:32.548-05:00 INFO  [-] 2023-02-22 09:46:32,548 [restartedMain] o.a.c.c.StandardService - Stopping service [Tomcat]
+ 50472 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-22T09:46:32.562-05:00 INFO  [-] 2023-02-22 09:46:32,562 [restartedMain] o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+ 50472 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-02-22T09:46:32.577-05:00 ERROR [-] 2023-02-22 09:46:32,577 [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+ 50472 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2023-02-22T09:46:34.212-05:00 INFO  [-] 2023-02-22 09:46:34,212 [RMI TCP Connection(22)-127.0.0.1] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+ 22160 --- [RMI TCP Connection(22)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-02-22T09:46:34.220-05:00 INFO  [-] 2023-02-22 09:46:34,220 [RMI TCP Connection(22)-127.0.0.1] o.a.c.c.StandardService - Stopping service [Tomcat]
+ 22160 --- [RMI TCP Connection(22)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-22T09:46:34.223-05:00 INFO  [-] 2023-02-22 09:46:34,223 [RMI TCP Connection(22)-127.0.0.1] o.a.c.c.C.[.[.[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+ 22160 --- [RMI TCP Connection(22)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-02-22T09:46:34.229-05:00 INFO  [-] 2023-02-22 09:46:34,229 [RMI TCP Connection(22)-127.0.0.1] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+ 22160 --- [RMI TCP Connection(22)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-22T09:46:34.231-05:00 INFO  [-] 2023-02-22 09:46:34,231 [RMI TCP Connection(22)-127.0.0.1] c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+ 22160 --- [RMI TCP Connection(22)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-02-22T09:46:34.235-05:00 INFO  [-] 2023-02-22 09:46:34,235 [RMI TCP Connection(22)-127.0.0.1] c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
+ 22160 --- [RMI TCP Connection(22)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-02-22T09:46:40.142-05:00 INFO  [-] 2023-02-22 09:46:40,142 [restartedMain] c.m.d.CapstoneCurrentApplication - Starting CapstoneCurrentApplication using Java 17.0.4.1 with PID 68908 (C:\Users\17187\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\CapstoneCurrent\target\classes started by 17187 in C:\Users\17187\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\CapstoneCurrent)
+ 68908 --- [restartedMain] c.m.demo.CapstoneCurrentApplication      : Starting CapstoneCurrentApplication using Java 17.0.4.1 with PID 68908 (C:\Users\17187\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\CapstoneCurrent\target\classes started by 17187 in C:\Users\17187\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\CapstoneCurrent)
+2023-02-22T09:46:40.144-05:00 INFO  [-] 2023-02-22 09:46:40,144 [restartedMain] c.m.d.CapstoneCurrentApplication - No active profile set, falling back to 1 default profile: "default"
+ 68908 --- [restartedMain] c.m.demo.CapstoneCurrentApplication      : No active profile set, falling back to 1 default profile: "default"
+2023-02-22T09:46:40.172-05:00 INFO  [-] 2023-02-22 09:46:40,172 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+ 68908 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-02-22T09:46:40.173-05:00 INFO  [-] 2023-02-22 09:46:40,173 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+ 68908 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-02-22T09:46:40.729-05:00 INFO  [-] 2023-02-22 09:46:40,729 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ 68908 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-22T09:46:40.776-05:00 INFO  [-] 2023-02-22 09:46:40,776 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 41 ms. Found 5 JPA repository interfaces.
+ 68908 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 41 ms. Found 5 JPA repository interfaces.
+2023-02-22T09:46:41.155-05:00 INFO  [-] 2023-02-22 09:46:41,155 [restartedMain] o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+ 68908 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-02-22T09:46:41.163-05:00 INFO  [-] 2023-02-22 09:46:41,163 [restartedMain] o.a.c.c.StandardService - Starting service [Tomcat]
+ 68908 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-22T09:46:41.164-05:00 INFO  [-] 2023-02-22 09:46:41,164 [restartedMain] o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+ 68908 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-22T09:46:41.207-05:00 INFO  [-] 2023-02-22 09:46:41,207 [restartedMain] o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+ 68908 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-22T09:46:41.208-05:00 INFO  [-] 2023-02-22 09:46:41,208 [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1035 ms
+ 68908 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1035 ms
+2023-02-22T09:46:41.353-05:00 INFO  [-] 2023-02-22 09:46:41,353 [restartedMain] o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+ 68908 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-22T09:46:41.386-05:00 INFO  [-] 2023-02-22 09:46:41,386 [restartedMain] o.h.Version - HHH000412: Hibernate ORM core version 6.1.6.Final
+ 68908 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-02-22T09:46:41.510-05:00 WARN  [-] 2023-02-22 09:46:41,510 [restartedMain] o.h.o.deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+ 68908 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-02-22T09:46:41.604-05:00 INFO  [-] 2023-02-22 09:46:41,604 [restartedMain] c.z.h.HikariDataSource - HikariPool-1 - Starting...
+ 68908 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-22T09:46:41.834-05:00 INFO  [-] 2023-02-22 09:46:41,834 [restartedMain] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@72859872
+ 68908 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@72859872
+2023-02-22T09:46:41.836-05:00 INFO  [-] 2023-02-22 09:46:41,836 [restartedMain] c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+ 68908 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-22T09:46:41.850-05:00 INFO  [-] 2023-02-22 09:46:41,850 [restartedMain] SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+ 68908 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-02-22T09:46:41.851-05:00 WARN  [-] 2023-02-22 09:46:41,851 [restartedMain] o.h.o.deprecation - HHH90000026: MySQL5Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+ 68908 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL5Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-02-22T09:46:42.584-05:00 INFO  [-] 2023-02-22 09:46:42,584 [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+ 68908 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-22T09:46:42.591-05:00 INFO  [-] 2023-02-22 09:46:42,591 [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ 68908 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-22T09:46:42.902-05:00 WARN  [-] 2023-02-22 09:46:42,902 [restartedMain] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ 68908 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-22T09:46:43.206-05:00 INFO  [-] 2023-02-22 09:46:43,206 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+ 68908 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-22T09:46:43.209-05:00 INFO  [-] 2023-02-22 09:46:43,209 [restartedMain] o.s.b.a.e.w.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+ 68908 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-02-22T09:46:43.271-05:00 INFO  [-] 2023-02-22 09:46:43,271 [restartedMain] o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+ 68908 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-22T09:46:43.281-05:00 INFO  [-] 2023-02-22 09:46:43,281 [restartedMain] c.m.d.CapstoneCurrentApplication - Started CapstoneCurrentApplication in 3.418 seconds (process running for 3.935)
+ 68908 --- [restartedMain] c.m.demo.CapstoneCurrentApplication      : Started CapstoneCurrentApplication in 3.418 seconds (process running for 3.935)
+2023-02-22T09:46:50.038-05:00 INFO  [-] 2023-02-22 09:46:50,038 [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 68908 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-22T09:46:50.039-05:00 INFO  [-] 2023-02-22 09:46:50,039 [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+ 68908 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-22T09:46:50.040-05:00 INFO  [-] 2023-02-22 09:46:50,040 [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet - Completed initialization in 1 ms
+ 68908 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-02-22T09:47:41.922-05:00 INFO  [-] 2023-02-22 09:47:41,922 [restartedMain] c.m.d.CapstoneCurrentApplication - Starting CapstoneCurrentApplication using Java 17.0.4.1 with PID 18144 (C:\Users\17187\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\CapstoneCurrent\target\classes started by 17187 in C:\Users\17187\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\CapstoneCurrent)
+ 18144 --- [restartedMain] c.m.demo.CapstoneCurrentApplication      : Starting CapstoneCurrentApplication using Java 17.0.4.1 with PID 18144 (C:\Users\17187\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\CapstoneCurrent\target\classes started by 17187 in C:\Users\17187\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\CapstoneCurrent)
+2023-02-22T09:47:41.923-05:00 INFO  [-] 2023-02-22 09:47:41,923 [restartedMain] c.m.d.CapstoneCurrentApplication - No active profile set, falling back to 1 default profile: "default"
+ 18144 --- [restartedMain] c.m.demo.CapstoneCurrentApplication      : No active profile set, falling back to 1 default profile: "default"
+2023-02-22T09:47:41.951-05:00 INFO  [-] 2023-02-22 09:47:41,951 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+ 18144 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-02-22T09:47:41.952-05:00 INFO  [-] 2023-02-22 09:47:41,952 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+ 18144 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-02-22T09:47:42.509-05:00 INFO  [-] 2023-02-22 09:47:42,509 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ 18144 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-22T09:47:42.552-05:00 INFO  [-] 2023-02-22 09:47:42,552 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 38 ms. Found 5 JPA repository interfaces.
+ 18144 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 38 ms. Found 5 JPA repository interfaces.
+2023-02-22T09:47:42.934-05:00 INFO  [-] 2023-02-22 09:47:42,934 [restartedMain] o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+ 18144 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-02-22T09:47:42.942-05:00 INFO  [-] 2023-02-22 09:47:42,942 [restartedMain] o.a.c.c.StandardService - Starting service [Tomcat]
+ 18144 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-22T09:47:42.943-05:00 INFO  [-] 2023-02-22 09:47:42,943 [restartedMain] o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+ 18144 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-22T09:47:42.992-05:00 INFO  [-] 2023-02-22 09:47:42,992 [restartedMain] o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+ 18144 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-22T09:47:42.992-05:00 INFO  [-] 2023-02-22 09:47:42,992 [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1040 ms
+ 18144 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1040 ms
+2023-02-22T09:47:43.146-05:00 INFO  [-] 2023-02-22 09:47:43,146 [restartedMain] o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+ 18144 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-22T09:47:43.182-05:00 INFO  [-] 2023-02-22 09:47:43,182 [restartedMain] o.h.Version - HHH000412: Hibernate ORM core version 6.1.6.Final
+ 18144 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-02-22T09:47:43.298-05:00 WARN  [-] 2023-02-22 09:47:43,298 [restartedMain] o.h.o.deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+ 18144 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-02-22T09:47:43.385-05:00 INFO  [-] 2023-02-22 09:47:43,385 [restartedMain] c.z.h.HikariDataSource - HikariPool-1 - Starting...
+ 18144 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-22T09:47:43.602-05:00 INFO  [-] 2023-02-22 09:47:43,602 [restartedMain] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4809de07
+ 18144 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4809de07
+2023-02-22T09:47:43.604-05:00 INFO  [-] 2023-02-22 09:47:43,604 [restartedMain] c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+ 18144 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-22T09:47:43.617-05:00 INFO  [-] 2023-02-22 09:47:43,617 [restartedMain] SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+ 18144 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-02-22T09:47:43.617-05:00 WARN  [-] 2023-02-22 09:47:43,617 [restartedMain] o.h.o.deprecation - HHH90000026: MySQL5Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+ 18144 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL5Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-02-22T09:47:44.357-05:00 INFO  [-] 2023-02-22 09:47:44,357 [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+ 18144 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-22T09:47:44.364-05:00 INFO  [-] 2023-02-22 09:47:44,364 [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ 18144 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-22T09:47:44.668-05:00 WARN  [-] 2023-02-22 09:47:44,668 [restartedMain] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ 18144 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-22T09:47:44.975-05:00 WARN  [-] 2023-02-22 09:47:44,975 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+ 18144 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2023-02-22T09:47:44.979-05:00 INFO  [-] 2023-02-22 09:47:44,979 [restartedMain] o.s.b.a.e.w.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+ 18144 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-02-22T09:47:45.023-05:00 WARN  [-] 2023-02-22 09:47:45,023 [restartedMain] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+ 18144 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2023-02-22T09:47:45.025-05:00 INFO  [-] 2023-02-22 09:47:45,025 [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+ 18144 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-22T09:47:45.028-05:00 INFO  [-] 2023-02-22 09:47:45,028 [restartedMain] c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+ 18144 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-02-22T09:47:45.032-05:00 INFO  [-] 2023-02-22 09:47:45,032 [restartedMain] c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
+ 18144 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-02-22T09:47:45.035-05:00 INFO  [-] 2023-02-22 09:47:45,035 [restartedMain] o.a.c.c.StandardService - Stopping service [Tomcat]
+ 18144 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-22T09:47:45.050-05:00 INFO  [-] 2023-02-22 09:47:45,050 [restartedMain] o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+ 18144 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-02-22T09:47:45.071-05:00 ERROR [-] 2023-02-22 09:47:45,071 [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+ 18144 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2023-02-22T09:47:47.342-05:00 INFO  [-] 2023-02-22 09:47:47,342 [RMI TCP Connection(10)-127.0.0.1] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+ 68908 --- [RMI TCP Connection(10)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-02-22T09:47:47.351-05:00 INFO  [-] 2023-02-22 09:47:47,351 [RMI TCP Connection(10)-127.0.0.1] o.a.c.c.StandardService - Stopping service [Tomcat]
+ 68908 --- [RMI TCP Connection(10)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-22T09:47:47.352-05:00 INFO  [-] 2023-02-22 09:47:47,352 [RMI TCP Connection(10)-127.0.0.1] o.a.c.c.C.[.[.[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+ 68908 --- [RMI TCP Connection(10)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-02-22T09:47:47.358-05:00 INFO  [-] 2023-02-22 09:47:47,358 [RMI TCP Connection(10)-127.0.0.1] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+ 68908 --- [RMI TCP Connection(10)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-22T09:47:47.360-05:00 INFO  [-] 2023-02-22 09:47:47,360 [RMI TCP Connection(10)-127.0.0.1] c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+ 68908 --- [RMI TCP Connection(10)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-02-22T09:47:47.364-05:00 INFO  [-] 2023-02-22 09:47:47,364 [RMI TCP Connection(10)-127.0.0.1] c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
+ 68908 --- [RMI TCP Connection(10)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-02-22T09:47:54.982-05:00 INFO  [-] 2023-02-22 09:47:54,982 [restartedMain] c.m.d.CapstoneCurrentApplication - Starting CapstoneCurrentApplication using Java 17.0.4.1 with PID 5524 (C:\Users\17187\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\CapstoneCurrent\target\classes started by 17187 in C:\Users\17187\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\CapstoneCurrent)
+ 5524 --- [restartedMain] c.m.demo.CapstoneCurrentApplication      : Starting CapstoneCurrentApplication using Java 17.0.4.1 with PID 5524 (C:\Users\17187\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\CapstoneCurrent\target\classes started by 17187 in C:\Users\17187\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\CapstoneCurrent)
+2023-02-22T09:47:54.984-05:00 INFO  [-] 2023-02-22 09:47:54,984 [restartedMain] c.m.d.CapstoneCurrentApplication - No active profile set, falling back to 1 default profile: "default"
+ 5524 --- [restartedMain] c.m.demo.CapstoneCurrentApplication      : No active profile set, falling back to 1 default profile: "default"
+2023-02-22T09:47:55.012-05:00 INFO  [-] 2023-02-22 09:47:55,012 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+ 5524 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-02-22T09:47:55.013-05:00 INFO  [-] 2023-02-22 09:47:55,013 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+ 5524 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-02-22T09:47:55.564-05:00 INFO  [-] 2023-02-22 09:47:55,564 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ 5524 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-22T09:47:55.609-05:00 INFO  [-] 2023-02-22 09:47:55,609 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 39 ms. Found 5 JPA repository interfaces.
+ 5524 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 39 ms. Found 5 JPA repository interfaces.
+2023-02-22T09:47:55.998-05:00 INFO  [-] 2023-02-22 09:47:55,998 [restartedMain] o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+ 5524 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-02-22T09:47:56.006-05:00 INFO  [-] 2023-02-22 09:47:56,006 [restartedMain] o.a.c.c.StandardService - Starting service [Tomcat]
+ 5524 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-22T09:47:56.006-05:00 INFO  [-] 2023-02-22 09:47:56,006 [restartedMain] o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+ 5524 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-22T09:47:56.056-05:00 INFO  [-] 2023-02-22 09:47:56,056 [restartedMain] o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+ 5524 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-22T09:47:56.057-05:00 INFO  [-] 2023-02-22 09:47:56,057 [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1043 ms
+ 5524 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1043 ms
+2023-02-22T09:47:56.200-05:00 INFO  [-] 2023-02-22 09:47:56,200 [restartedMain] o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+ 5524 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-22T09:47:56.235-05:00 INFO  [-] 2023-02-22 09:47:56,235 [restartedMain] o.h.Version - HHH000412: Hibernate ORM core version 6.1.6.Final
+ 5524 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-02-22T09:47:56.356-05:00 WARN  [-] 2023-02-22 09:47:56,356 [restartedMain] o.h.o.deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+ 5524 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-02-22T09:47:56.448-05:00 INFO  [-] 2023-02-22 09:47:56,448 [restartedMain] c.z.h.HikariDataSource - HikariPool-1 - Starting...
+ 5524 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-22T09:47:56.669-05:00 INFO  [-] 2023-02-22 09:47:56,669 [restartedMain] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@72859872
+ 5524 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@72859872
+2023-02-22T09:47:56.670-05:00 INFO  [-] 2023-02-22 09:47:56,670 [restartedMain] c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+ 5524 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-22T09:47:56.683-05:00 INFO  [-] 2023-02-22 09:47:56,683 [restartedMain] SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+ 5524 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-02-22T09:47:56.684-05:00 WARN  [-] 2023-02-22 09:47:56,684 [restartedMain] o.h.o.deprecation - HHH90000026: MySQL5Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+ 5524 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL5Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-02-22T09:47:57.429-05:00 INFO  [-] 2023-02-22 09:47:57,429 [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+ 5524 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-22T09:47:57.437-05:00 INFO  [-] 2023-02-22 09:47:57,437 [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ 5524 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-22T09:47:57.762-05:00 WARN  [-] 2023-02-22 09:47:57,762 [restartedMain] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ 5524 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-22T09:47:58.088-05:00 INFO  [-] 2023-02-22 09:47:58,088 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+ 5524 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-22T09:47:58.091-05:00 INFO  [-] 2023-02-22 09:47:58,091 [restartedMain] o.s.b.a.e.w.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+ 5524 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-02-22T09:47:58.147-05:00 INFO  [-] 2023-02-22 09:47:58,147 [restartedMain] o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+ 5524 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-22T09:47:58.157-05:00 INFO  [-] 2023-02-22 09:47:58,157 [restartedMain] c.m.d.CapstoneCurrentApplication - Started CapstoneCurrentApplication in 3.437 seconds (process running for 3.957)
+ 5524 --- [restartedMain] c.m.demo.CapstoneCurrentApplication      : Started CapstoneCurrentApplication in 3.437 seconds (process running for 3.957)
+2023-02-22T09:48:17.591-05:00 INFO  [-] 2023-02-22 09:48:17,591 [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 5524 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-22T09:48:17.591-05:00 INFO  [-] 2023-02-22 09:48:17,591 [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+ 5524 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-22T09:48:17.592-05:00 INFO  [-] 2023-02-22 09:48:17,592 [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet - Completed initialization in 1 ms
+ 5524 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-02-22T09:49:27.684-05:00 INFO  [-] 2023-02-22 09:49:27,684 [restartedMain] c.m.d.CapstoneCurrentApplication - Starting CapstoneCurrentApplication using Java 17.0.4.1 with PID 66476 (C:\Users\17187\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\CapstoneCurrent\target\classes started by 17187 in C:\Users\17187\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\CapstoneCurrent)
+ 66476 --- [restartedMain] c.m.demo.CapstoneCurrentApplication      : Starting CapstoneCurrentApplication using Java 17.0.4.1 with PID 66476 (C:\Users\17187\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\CapstoneCurrent\target\classes started by 17187 in C:\Users\17187\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\CapstoneCurrent)
+2023-02-22T09:49:27.686-05:00 INFO  [-] 2023-02-22 09:49:27,686 [restartedMain] c.m.d.CapstoneCurrentApplication - No active profile set, falling back to 1 default profile: "default"
+ 66476 --- [restartedMain] c.m.demo.CapstoneCurrentApplication      : No active profile set, falling back to 1 default profile: "default"
+2023-02-22T09:49:27.714-05:00 INFO  [-] 2023-02-22 09:49:27,714 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+ 66476 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-02-22T09:49:27.715-05:00 INFO  [-] 2023-02-22 09:49:27,715 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+ 66476 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-02-22T09:49:28.286-05:00 INFO  [-] 2023-02-22 09:49:28,286 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ 66476 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-22T09:49:28.335-05:00 INFO  [-] 2023-02-22 09:49:28,335 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 43 ms. Found 5 JPA repository interfaces.
+ 66476 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 43 ms. Found 5 JPA repository interfaces.
+2023-02-22T09:49:28.707-05:00 INFO  [-] 2023-02-22 09:49:28,707 [restartedMain] o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+ 66476 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-02-22T09:49:28.714-05:00 INFO  [-] 2023-02-22 09:49:28,714 [restartedMain] o.a.c.c.StandardService - Starting service [Tomcat]
+ 66476 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-22T09:49:28.714-05:00 INFO  [-] 2023-02-22 09:49:28,714 [restartedMain] o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+ 66476 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-22T09:49:28.755-05:00 INFO  [-] 2023-02-22 09:49:28,755 [restartedMain] o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+ 66476 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-22T09:49:28.755-05:00 INFO  [-] 2023-02-22 09:49:28,755 [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1040 ms
+ 66476 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1040 ms
+2023-02-22T09:49:28.905-05:00 INFO  [-] 2023-02-22 09:49:28,905 [restartedMain] o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+ 66476 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-22T09:49:28.940-05:00 INFO  [-] 2023-02-22 09:49:28,940 [restartedMain] o.h.Version - HHH000412: Hibernate ORM core version 6.1.6.Final
+ 66476 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-02-22T09:49:29.075-05:00 WARN  [-] 2023-02-22 09:49:29,075 [restartedMain] o.h.o.deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+ 66476 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-02-22T09:49:29.168-05:00 INFO  [-] 2023-02-22 09:49:29,168 [restartedMain] c.z.h.HikariDataSource - HikariPool-1 - Starting...
+ 66476 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-22T09:49:29.406-05:00 INFO  [-] 2023-02-22 09:49:29,406 [restartedMain] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6bfd55c8
+ 66476 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6bfd55c8
+2023-02-22T09:49:29.408-05:00 INFO  [-] 2023-02-22 09:49:29,408 [restartedMain] c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+ 66476 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-22T09:49:29.421-05:00 INFO  [-] 2023-02-22 09:49:29,421 [restartedMain] SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+ 66476 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-02-22T09:49:29.421-05:00 WARN  [-] 2023-02-22 09:49:29,421 [restartedMain] o.h.o.deprecation - HHH90000026: MySQL5Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+ 66476 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL5Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-02-22T09:49:30.132-05:00 INFO  [-] 2023-02-22 09:49:30,132 [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+ 66476 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-22T09:49:30.140-05:00 INFO  [-] 2023-02-22 09:49:30,140 [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ 66476 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-22T09:49:30.490-05:00 WARN  [-] 2023-02-22 09:49:30,490 [restartedMain] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ 66476 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-22T09:49:30.822-05:00 WARN  [-] 2023-02-22 09:49:30,822 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+ 66476 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2023-02-22T09:49:30.826-05:00 INFO  [-] 2023-02-22 09:49:30,826 [restartedMain] o.s.b.a.e.w.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+ 66476 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-02-22T09:49:30.875-05:00 WARN  [-] 2023-02-22 09:49:30,875 [restartedMain] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+ 66476 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2023-02-22T09:49:30.877-05:00 INFO  [-] 2023-02-22 09:49:30,877 [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+ 66476 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-22T09:49:30.879-05:00 INFO  [-] 2023-02-22 09:49:30,879 [restartedMain] c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+ 66476 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-02-22T09:49:30.884-05:00 INFO  [-] 2023-02-22 09:49:30,884 [restartedMain] c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
+ 66476 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-02-22T09:49:30.887-05:00 INFO  [-] 2023-02-22 09:49:30,887 [restartedMain] o.a.c.c.StandardService - Stopping service [Tomcat]
+ 66476 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-22T09:49:30.900-05:00 INFO  [-] 2023-02-22 09:49:30,900 [restartedMain] o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+ 66476 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-02-22T09:49:30.913-05:00 ERROR [-] 2023-02-22 09:49:30,913 [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+ 66476 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2023-02-22T09:49:32.360-05:00 INFO  [-] 2023-02-22 09:49:32,360 [RMI TCP Connection(11)-127.0.0.1] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+ 5524 --- [RMI TCP Connection(11)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-02-22T09:49:32.368-05:00 INFO  [-] 2023-02-22 09:49:32,368 [RMI TCP Connection(11)-127.0.0.1] o.a.c.c.StandardService - Stopping service [Tomcat]
+ 5524 --- [RMI TCP Connection(11)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-22T09:49:32.369-05:00 INFO  [-] 2023-02-22 09:49:32,369 [RMI TCP Connection(11)-127.0.0.1] o.a.c.c.C.[.[.[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+ 5524 --- [RMI TCP Connection(11)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-02-22T09:49:32.374-05:00 INFO  [-] 2023-02-22 09:49:32,374 [RMI TCP Connection(11)-127.0.0.1] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+ 5524 --- [RMI TCP Connection(11)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-22T09:49:32.376-05:00 INFO  [-] 2023-02-22 09:49:32,376 [RMI TCP Connection(11)-127.0.0.1] c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+ 5524 --- [RMI TCP Connection(11)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-02-22T09:49:32.380-05:00 INFO  [-] 2023-02-22 09:49:32,380 [RMI TCP Connection(11)-127.0.0.1] c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
+ 5524 --- [RMI TCP Connection(11)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-02-22T09:49:40.369-05:00 INFO  [-] 2023-02-22 09:49:40,369 [restartedMain] c.m.d.CapstoneCurrentApplication - Starting CapstoneCurrentApplication using Java 17.0.4.1 with PID 66212 (C:\Users\17187\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\CapstoneCurrent\target\classes started by 17187 in C:\Users\17187\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\CapstoneCurrent)
+ 66212 --- [restartedMain] c.m.demo.CapstoneCurrentApplication      : Starting CapstoneCurrentApplication using Java 17.0.4.1 with PID 66212 (C:\Users\17187\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\CapstoneCurrent\target\classes started by 17187 in C:\Users\17187\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\CapstoneCurrent)
+2023-02-22T09:49:40.371-05:00 INFO  [-] 2023-02-22 09:49:40,371 [restartedMain] c.m.d.CapstoneCurrentApplication - No active profile set, falling back to 1 default profile: "default"
+ 66212 --- [restartedMain] c.m.demo.CapstoneCurrentApplication      : No active profile set, falling back to 1 default profile: "default"
+2023-02-22T09:49:40.404-05:00 INFO  [-] 2023-02-22 09:49:40,404 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+ 66212 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-02-22T09:49:40.404-05:00 INFO  [-] 2023-02-22 09:49:40,404 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+ 66212 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-02-22T09:49:40.940-05:00 INFO  [-] 2023-02-22 09:49:40,940 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ 66212 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-22T09:49:40.989-05:00 INFO  [-] 2023-02-22 09:49:40,989 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 42 ms. Found 5 JPA repository interfaces.
+ 66212 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 42 ms. Found 5 JPA repository interfaces.
+2023-02-22T09:49:41.365-05:00 INFO  [-] 2023-02-22 09:49:41,365 [restartedMain] o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+ 66212 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-02-22T09:49:41.374-05:00 INFO  [-] 2023-02-22 09:49:41,374 [restartedMain] o.a.c.c.StandardService - Starting service [Tomcat]
+ 66212 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-22T09:49:41.374-05:00 INFO  [-] 2023-02-22 09:49:41,374 [restartedMain] o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+ 66212 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-22T09:49:41.416-05:00 INFO  [-] 2023-02-22 09:49:41,416 [restartedMain] o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+ 66212 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-22T09:49:41.417-05:00 INFO  [-] 2023-02-22 09:49:41,417 [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1012 ms
+ 66212 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1012 ms
+2023-02-22T09:49:41.566-05:00 INFO  [-] 2023-02-22 09:49:41,566 [restartedMain] o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+ 66212 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-22T09:49:41.603-05:00 INFO  [-] 2023-02-22 09:49:41,603 [restartedMain] o.h.Version - HHH000412: Hibernate ORM core version 6.1.6.Final
+ 66212 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-02-22T09:49:41.713-05:00 WARN  [-] 2023-02-22 09:49:41,713 [restartedMain] o.h.o.deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+ 66212 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-02-22T09:49:41.792-05:00 INFO  [-] 2023-02-22 09:49:41,792 [restartedMain] c.z.h.HikariDataSource - HikariPool-1 - Starting...
+ 66212 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-22T09:49:42.014-05:00 INFO  [-] 2023-02-22 09:49:42,014 [restartedMain] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@18d6a5f2
+ 66212 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@18d6a5f2
+2023-02-22T09:49:42.016-05:00 INFO  [-] 2023-02-22 09:49:42,016 [restartedMain] c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+ 66212 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-22T09:49:42.031-05:00 INFO  [-] 2023-02-22 09:49:42,031 [restartedMain] SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+ 66212 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-02-22T09:49:42.032-05:00 WARN  [-] 2023-02-22 09:49:42,032 [restartedMain] o.h.o.deprecation - HHH90000026: MySQL5Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+ 66212 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL5Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-02-22T09:49:42.793-05:00 INFO  [-] 2023-02-22 09:49:42,793 [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+ 66212 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-22T09:49:42.800-05:00 INFO  [-] 2023-02-22 09:49:42,800 [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ 66212 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-22T09:49:43.076-05:00 WARN  [-] 2023-02-22 09:49:43,076 [restartedMain] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ 66212 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-22T09:49:43.412-05:00 INFO  [-] 2023-02-22 09:49:43,412 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+ 66212 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-22T09:49:43.416-05:00 INFO  [-] 2023-02-22 09:49:43,416 [restartedMain] o.s.b.a.e.w.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+ 66212 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-02-22T09:49:43.477-05:00 INFO  [-] 2023-02-22 09:49:43,477 [restartedMain] o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+ 66212 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-22T09:49:43.487-05:00 INFO  [-] 2023-02-22 09:49:43,487 [restartedMain] c.m.d.CapstoneCurrentApplication - Started CapstoneCurrentApplication in 3.394 seconds (process running for 3.942)
+ 66212 --- [restartedMain] c.m.demo.CapstoneCurrentApplication      : Started CapstoneCurrentApplication in 3.394 seconds (process running for 3.942)
+2023-02-22T09:49:47.021-05:00 INFO  [-] 2023-02-22 09:49:47,021 [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 66212 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-22T09:49:47.022-05:00 INFO  [-] 2023-02-22 09:49:47,022 [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+ 66212 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-22T09:49:47.023-05:00 INFO  [-] 2023-02-22 09:49:47,023 [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet - Completed initialization in 1 ms
+ 66212 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-02-22T10:38:11.424-05:00 WARN  [-] 2023-02-22 10:38:11,424 [http-nio-8080-exec-4] o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "update_style.css"]
+ 66212 --- [http-nio-8080-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "update_style.css"]
+2023-02-22T11:17:53.934-05:00 INFO  [-] 2023-02-22 11:17:53,934 [restartedMain] c.m.d.CapstoneCurrentApplication - Starting CapstoneCurrentApplication using Java 17.0.4.1 with PID 1712 (C:\Users\17187\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\Tesoriero_Robert_SynchroSleep_CaseStudy\target\classes started by 17187 in C:\Users\17187\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\Tesoriero_Robert_SynchroSleep_CaseStudy)
+ 1712 --- [restartedMain] c.m.demo.CapstoneCurrentApplication      : Starting CapstoneCurrentApplication using Java 17.0.4.1 with PID 1712 (C:\Users\17187\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\Tesoriero_Robert_SynchroSleep_CaseStudy\target\classes started by 17187 in C:\Users\17187\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\Tesoriero_Robert_SynchroSleep_CaseStudy)
+2023-02-22T11:17:53.936-05:00 INFO  [-] 2023-02-22 11:17:53,936 [restartedMain] c.m.d.CapstoneCurrentApplication - No active profile set, falling back to 1 default profile: "default"
+ 1712 --- [restartedMain] c.m.demo.CapstoneCurrentApplication      : No active profile set, falling back to 1 default profile: "default"
+2023-02-22T11:17:53.970-05:00 INFO  [-] 2023-02-22 11:17:53,970 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+ 1712 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-02-22T11:17:53.970-05:00 INFO  [-] 2023-02-22 11:17:53,970 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+ 1712 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-02-22T11:17:54.546-05:00 INFO  [-] 2023-02-22 11:17:54,546 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ 1712 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-22T11:17:54.597-05:00 INFO  [-] 2023-02-22 11:17:54,597 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 44 ms. Found 5 JPA repository interfaces.
+ 1712 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 44 ms. Found 5 JPA repository interfaces.
+2023-02-22T11:17:54.993-05:00 INFO  [-] 2023-02-22 11:17:54,993 [restartedMain] o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+ 1712 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-02-22T11:17:55.002-05:00 INFO  [-] 2023-02-22 11:17:55,002 [restartedMain] o.a.c.c.StandardService - Starting service [Tomcat]
+ 1712 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-22T11:17:55.002-05:00 INFO  [-] 2023-02-22 11:17:55,002 [restartedMain] o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+ 1712 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-22T11:17:55.050-05:00 INFO  [-] 2023-02-22 11:17:55,050 [restartedMain] o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+ 1712 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-22T11:17:55.051-05:00 INFO  [-] 2023-02-22 11:17:55,051 [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1080 ms
+ 1712 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1080 ms
+2023-02-22T11:17:55.196-05:00 INFO  [-] 2023-02-22 11:17:55,196 [restartedMain] o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+ 1712 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-22T11:17:55.241-05:00 INFO  [-] 2023-02-22 11:17:55,241 [restartedMain] o.h.Version - HHH000412: Hibernate ORM core version 6.1.6.Final
+ 1712 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-02-22T11:17:55.385-05:00 WARN  [-] 2023-02-22 11:17:55,385 [restartedMain] o.h.o.deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+ 1712 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-02-22T11:17:55.479-05:00 INFO  [-] 2023-02-22 11:17:55,479 [restartedMain] c.z.h.HikariDataSource - HikariPool-1 - Starting...
+ 1712 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-22T11:17:55.698-05:00 INFO  [-] 2023-02-22 11:17:55,698 [restartedMain] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@676ddcc2
+ 1712 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@676ddcc2
+2023-02-22T11:17:55.700-05:00 INFO  [-] 2023-02-22 11:17:55,700 [restartedMain] c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+ 1712 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-22T11:17:55.715-05:00 INFO  [-] 2023-02-22 11:17:55,715 [restartedMain] SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+ 1712 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-02-22T11:17:55.715-05:00 WARN  [-] 2023-02-22 11:17:55,715 [restartedMain] o.h.o.deprecation - HHH90000026: MySQL5Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+ 1712 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL5Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-02-22T11:17:56.526-05:00 INFO  [-] 2023-02-22 11:17:56,526 [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+ 1712 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-22T11:17:56.534-05:00 INFO  [-] 2023-02-22 11:17:56,534 [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ 1712 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-22T11:17:56.836-05:00 WARN  [-] 2023-02-22 11:17:56,836 [restartedMain] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ 1712 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-22T11:17:57.162-05:00 WARN  [-] 2023-02-22 11:17:57,162 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+ 1712 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2023-02-22T11:17:57.167-05:00 INFO  [-] 2023-02-22 11:17:57,167 [restartedMain] o.s.b.a.e.w.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+ 1712 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-02-22T11:17:57.212-05:00 WARN  [-] 2023-02-22 11:17:57,212 [restartedMain] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+ 1712 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2023-02-22T11:17:57.215-05:00 INFO  [-] 2023-02-22 11:17:57,215 [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+ 1712 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-22T11:17:57.218-05:00 INFO  [-] 2023-02-22 11:17:57,218 [restartedMain] c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+ 1712 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-02-22T11:17:57.221-05:00 INFO  [-] 2023-02-22 11:17:57,221 [restartedMain] c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
+ 1712 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-02-22T11:17:57.223-05:00 INFO  [-] 2023-02-22 11:17:57,223 [restartedMain] o.a.c.c.StandardService - Stopping service [Tomcat]
+ 1712 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-22T11:17:57.236-05:00 INFO  [-] 2023-02-22 11:17:57,236 [restartedMain] o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+ 1712 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-02-22T11:17:57.251-05:00 ERROR [-] 2023-02-22 11:17:57,251 [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+ 1712 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2023-02-22T11:18:10.077-05:00 INFO  [-] 2023-02-22 11:18:10,077 [restartedMain] c.m.d.CapstoneCurrentApplication - Starting CapstoneCurrentApplication using Java 17.0.4.1 with PID 66580 (C:\Users\17187\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\Tesoriero_Robert_SynchroSleep_CaseStudy\target\classes started by 17187 in C:\Users\17187\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\Tesoriero_Robert_SynchroSleep_CaseStudy)
+ 66580 --- [restartedMain] c.m.demo.CapstoneCurrentApplication      : Starting CapstoneCurrentApplication using Java 17.0.4.1 with PID 66580 (C:\Users\17187\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\Tesoriero_Robert_SynchroSleep_CaseStudy\target\classes started by 17187 in C:\Users\17187\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\Tesoriero_Robert_SynchroSleep_CaseStudy)
+2023-02-22T11:18:10.079-05:00 INFO  [-] 2023-02-22 11:18:10,079 [restartedMain] c.m.d.CapstoneCurrentApplication - No active profile set, falling back to 1 default profile: "default"
+ 66580 --- [restartedMain] c.m.demo.CapstoneCurrentApplication      : No active profile set, falling back to 1 default profile: "default"
+2023-02-22T11:18:10.109-05:00 INFO  [-] 2023-02-22 11:18:10,109 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+ 66580 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-02-22T11:18:10.109-05:00 INFO  [-] 2023-02-22 11:18:10,109 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+ 66580 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-02-22T11:18:10.666-05:00 INFO  [-] 2023-02-22 11:18:10,666 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ 66580 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-22T11:18:10.713-05:00 INFO  [-] 2023-02-22 11:18:10,713 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 40 ms. Found 5 JPA repository interfaces.
+ 66580 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 40 ms. Found 5 JPA repository interfaces.
+2023-02-22T11:18:11.098-05:00 INFO  [-] 2023-02-22 11:18:11,098 [restartedMain] o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+ 66580 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-02-22T11:18:11.104-05:00 INFO  [-] 2023-02-22 11:18:11,104 [restartedMain] o.a.c.c.StandardService - Starting service [Tomcat]
+ 66580 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-22T11:18:11.105-05:00 INFO  [-] 2023-02-22 11:18:11,105 [restartedMain] o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+ 66580 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-22T11:18:11.148-05:00 INFO  [-] 2023-02-22 11:18:11,148 [restartedMain] o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+ 66580 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-22T11:18:11.148-05:00 INFO  [-] 2023-02-22 11:18:11,148 [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1038 ms
+ 66580 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1038 ms
+2023-02-22T11:18:11.297-05:00 INFO  [-] 2023-02-22 11:18:11,297 [restartedMain] o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+ 66580 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-22T11:18:11.334-05:00 INFO  [-] 2023-02-22 11:18:11,334 [restartedMain] o.h.Version - HHH000412: Hibernate ORM core version 6.1.6.Final
+ 66580 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-02-22T11:18:11.461-05:00 WARN  [-] 2023-02-22 11:18:11,461 [restartedMain] o.h.o.deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+ 66580 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-02-22T11:18:11.546-05:00 INFO  [-] 2023-02-22 11:18:11,546 [restartedMain] c.z.h.HikariDataSource - HikariPool-1 - Starting...
+ 66580 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-22T11:18:11.765-05:00 INFO  [-] 2023-02-22 11:18:11,765 [restartedMain] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@397c9622
+ 66580 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@397c9622
+2023-02-22T11:18:11.767-05:00 INFO  [-] 2023-02-22 11:18:11,767 [restartedMain] c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+ 66580 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-22T11:18:11.781-05:00 INFO  [-] 2023-02-22 11:18:11,781 [restartedMain] SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+ 66580 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-02-22T11:18:11.781-05:00 WARN  [-] 2023-02-22 11:18:11,781 [restartedMain] o.h.o.deprecation - HHH90000026: MySQL5Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+ 66580 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL5Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-02-22T11:18:12.501-05:00 INFO  [-] 2023-02-22 11:18:12,501 [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+ 66580 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-22T11:18:12.508-05:00 INFO  [-] 2023-02-22 11:18:12,508 [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ 66580 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-22T11:18:12.829-05:00 WARN  [-] 2023-02-22 11:18:12,829 [restartedMain] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ 66580 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-22T11:18:13.153-05:00 INFO  [-] 2023-02-22 11:18:13,153 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+ 66580 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-22T11:18:13.157-05:00 INFO  [-] 2023-02-22 11:18:13,157 [restartedMain] o.s.b.a.e.w.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+ 66580 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-02-22T11:18:13.215-05:00 INFO  [-] 2023-02-22 11:18:13,215 [restartedMain] o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+ 66580 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-22T11:18:13.225-05:00 INFO  [-] 2023-02-22 11:18:13,225 [restartedMain] c.m.d.CapstoneCurrentApplication - Started CapstoneCurrentApplication in 3.409 seconds (process running for 3.953)
+ 66580 --- [restartedMain] c.m.demo.CapstoneCurrentApplication      : Started CapstoneCurrentApplication in 3.409 seconds (process running for 3.953)
+2023-02-22T11:18:18.965-05:00 INFO  [-] 2023-02-22 11:18:18,965 [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 66580 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-22T11:18:18.966-05:00 INFO  [-] 2023-02-22 11:18:18,966 [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+ 66580 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-22T11:18:18.967-05:00 INFO  [-] 2023-02-22 11:18:18,967 [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet - Completed initialization in 1 ms
+ 66580 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-02-22T12:03:41.124-05:00 WARN  [-] 2023-02-22 12:03:41,124 [http-nio-8080-exec-8] o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "profile_styling.css"]
+ 66580 --- [http-nio-8080-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "profile_styling.css"]
+2023-02-22T12:04:01.591-05:00 WARN  [-] 2023-02-22 12:04:01,591 [http-nio-8080-exec-1] o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "profile_styling.css"]
+ 66580 --- [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "profile_styling.css"]
+2023-02-22T12:04:22.696-05:00 WARN  [-] 2023-02-22 12:04:22,696 [http-nio-8080-exec-5] o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "profile_styling.css"]
+ 66580 --- [http-nio-8080-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "profile_styling.css"]
+2023-02-22T12:04:23.884-05:00 WARN  [-] 2023-02-22 12:04:23,884 [http-nio-8080-exec-7] o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "profile_styling.css"]
+ 66580 --- [http-nio-8080-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "profile_styling.css"]
+2023-02-22T12:04:34.700-05:00 WARN  [-] 2023-02-22 12:04:34,700 [http-nio-8080-exec-10] o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "profile_styling.css"]
+ 66580 --- [http-nio-8080-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "profile_styling.css"]
+2023-02-22T12:04:57.681-05:00 WARN  [-] 2023-02-22 12:04:57,681 [http-nio-8080-exec-4] o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "profile_styling.css"]
+ 66580 --- [http-nio-8080-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "profile_styling.css"]
+2023-02-22T12:05:50.484-05:00 WARN  [-] 2023-02-22 12:05:50,484 [http-nio-8080-exec-10] o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "profile_styling.css"]
+ 66580 --- [http-nio-8080-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "profile_styling.css"]
+2023-02-22T12:06:06.900-05:00 WARN  [-] 2023-02-22 12:06:06,900 [http-nio-8080-exec-4] o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "profile_styling.css"]
+ 66580 --- [http-nio-8080-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "profile_styling.css"]
+2023-02-22T12:15:26.644-05:00 WARN  [-] 2023-02-22 12:15:26,644 [http-nio-8080-exec-9] o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "profile_styling.css"]
+ 66580 --- [http-nio-8080-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "profile_styling.css"]
+2023-02-22T12:15:53.269-05:00 WARN  [-] 2023-02-22 12:15:53,269 [http-nio-8080-exec-2] o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "profile_styling.css"]
+ 66580 --- [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "profile_styling.css"]
+2023-02-22T12:15:53.899-05:00 WARN  [-] 2023-02-22 12:15:53,899 [http-nio-8080-exec-5] o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "profile_styling.css"]
+ 66580 --- [http-nio-8080-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "profile_styling.css"]
+2023-02-22T12:15:58.530-05:00 WARN  [-] 2023-02-22 12:15:58,530 [http-nio-8080-exec-7] o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "profile_styling.css"]
+ 66580 --- [http-nio-8080-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "profile_styling.css"]
+2023-02-22T13:02:35.840-05:00 WARN  [-] 2023-02-22 13:02:35,840 [http-nio-8080-exec-10] o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "profile_styling.css"]
+ 66580 --- [http-nio-8080-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "profile_styling.css"]
+2023-02-22T13:03:13.391-05:00 WARN  [-] 2023-02-22 13:03:13,391 [http-nio-8080-exec-5] o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "profile_styling.css"]
+ 66580 --- [http-nio-8080-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "profile_styling.css"]
+2023-02-22T13:04:06.129-05:00 WARN  [-] 2023-02-22 13:04:06,129 [http-nio-8080-exec-9] o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "profile_styling.css"]
+ 66580 --- [http-nio-8080-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "profile_styling.css"]
+2023-02-22T13:24:25.450-05:00 WARN  [-] 2023-02-22 13:24:25,450 [http-nio-8080-exec-3] o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "profile_styling.css"]
+ 66580 --- [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "profile_styling.css"]
+2023-02-22T13:53:57.595-05:00 WARN  [-] 2023-02-22 13:53:57,595 [http-nio-8080-exec-6] o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "profile_styling.css"]
+ 66580 --- [http-nio-8080-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "profile_styling.css"]
+2023-02-22T13:56:23.889-05:00 WARN  [-] 2023-02-22 13:56:23,889 [http-nio-8080-exec-10] o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "profile_styling.css"]
+ 66580 --- [http-nio-8080-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "profile_styling.css"]
+2023-02-22T14:01:12.865-05:00 WARN  [-] 2023-02-22 14:01:12,865 [http-nio-8080-exec-8] o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "update_style.css"]
+ 66580 --- [http-nio-8080-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "update_style.css"]
+2023-02-22T14:01:24.438-05:00 WARN  [-] 2023-02-22 14:01:24,438 [http-nio-8080-exec-1] o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "update_style.css"]
+ 66580 --- [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "update_style.css"]
+2023-02-22T14:01:30.841-05:00 WARN  [-] 2023-02-22 14:01:30,841 [http-nio-8080-exec-3] o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "update_style.css"]
+ 66580 --- [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "update_style.css"]
+2023-02-22T14:01:33.535-05:00 WARN  [-] 2023-02-22 14:01:33,535 [http-nio-8080-exec-7] o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "update_style.css"]
+ 66580 --- [http-nio-8080-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "update_style.css"]
+2023-02-22T14:01:41.002-05:00 WARN  [-] 2023-02-22 14:01:41,002 [http-nio-8080-exec-1] o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "update_style.css"]
+ 66580 --- [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "update_style.css"]
+2023-02-22T14:01:59.657-05:00 WARN  [-] 2023-02-22 14:01:59,657 [http-nio-8080-exec-3] o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "update_style.css"]
+ 66580 --- [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "update_style.css"]
+2023-02-22T14:04:21.190-05:00 WARN  [-] 2023-02-22 14:04:21,190 [http-nio-8080-exec-7] o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "update_style.css"]
+ 66580 --- [http-nio-8080-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "update_style.css"]
+2023-02-22T14:13:45.557-05:00 WARN  [-] 2023-02-22 14:13:45,557 [http-nio-8080-exec-9] o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "update_style.css"]
+ 66580 --- [http-nio-8080-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "update_style.css"]
+2023-02-22T14:13:55.395-05:00 WARN  [-] 2023-02-22 14:13:55,395 [http-nio-8080-exec-2] o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "update_style.css"]
+ 66580 --- [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "update_style.css"]
+2023-02-22T14:14:35.204-05:00 WARN  [-] 2023-02-22 14:14:35,204 [http-nio-8080-exec-4] o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "update_style.css"]
+ 66580 --- [http-nio-8080-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "update_style.css"]
+2023-02-22T14:14:59.716-05:00 WARN  [-] 2023-02-22 14:14:59,716 [http-nio-8080-exec-9] o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "update_style.css"]
+ 66580 --- [http-nio-8080-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "update_style.css"]
+2023-02-22T14:15:08.704-05:00 WARN  [-] 2023-02-22 14:15:08,704 [http-nio-8080-exec-8] o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "update_style.css"]
+ 66580 --- [http-nio-8080-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "update_style.css"]
+2023-02-22T14:22:42.524-05:00 WARN  [-] 2023-02-22 14:22:42,524 [http-nio-8080-exec-7] o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "update_style.css"]
+ 66580 --- [http-nio-8080-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "update_style.css"]
+2023-02-22T14:23:59.847-05:00 WARN  [-] 2023-02-22 14:23:59,847 [http-nio-8080-exec-5] o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "update_style.css"]
+ 66580 --- [http-nio-8080-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "update_style.css"]
+2023-02-22T14:26:13.749-05:00 WARN  [-] 2023-02-22 14:26:13,749 [http-nio-8080-exec-6] o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "update_style.css"]
+ 66580 --- [http-nio-8080-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "update_style.css"]
+2023-02-22T14:35:07.266-05:00 WARN  [-] 2023-02-22 14:35:07,266 [http-nio-8080-exec-9] o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "update_style.css"]
+ 66580 --- [http-nio-8080-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "update_style.css"]
+2023-02-22T14:35:15.590-05:00 WARN  [-] 2023-02-22 14:35:15,590 [http-nio-8080-exec-2] o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "profile_styling.css"]
+ 66580 --- [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "profile_styling.css"]

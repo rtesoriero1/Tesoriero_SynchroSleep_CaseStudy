@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en"
+	xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<meta charset="UTF-8">
+		<title>Registration and Login System</title>
+		<link rel = "stylesheet" type = "text/css" href = "register_style.css">
+<!-- Bootstrap credit: https://codepen.io/samnorton/pen/oNYajYM?hubs_content=blog.hubspot.com%252Fwebsite%252Fbootstrap-form-template&hubs_content-cta=registration%2520forms -->
+	
+	<style>
+	
+		.form-body {
+   background-color:  #2D2D2F;
+
+}
+	
+	.form-holder {
+    text-align: center;
+     background-color:  #2D2D2F;
+}
+
+	.form-content {
+    text-align: center;
+     background-color:  #4A306D;
+}
+
+	.title {
+    text-align: center;
+   color:white;
+}
+
+	</style>
+	
+	</head>
+	<body>
+<div class="form-body">
+ 
+  <div class="row">
+    <div class="form-holder">
+      <div class="form-content">
+        <div class="form-items">
+         <h1 class="title"><b>Profile Creation</b></h1>
+          <p>Lets create a custom Sleep Profile for your SynchroSleep Journey!</p>
+         
+          <form
+            method="post"
+            role="form"
+            th:action="@{/create/save}"
+            th:object="${profile}">
+
+    
+
+            <div class="col-md-12">
+             <p>Please provide your name!</p>
+              <input class="form-control" type="text" style="width: 350px;" placeholder="Full Name" th:field="*{pName}">
+            
+            </div>
+
+         
+
+            <div class="col-md-12">
+           <p>Please provide your age!</p>
+              <input class="form-control" type="number"  placeholder="Age" th:field="*{pAge}" min ="1" required>
+            
+            </div>
+
+         
+            <div class="form-check">
+            <p>Please provide your sex!</p>
+               <input type="radio" id="male"  value="Male" th:field="*{pSex}">
+				  <label for="male">Male</label><br>
+				  <input type="radio" id="female"  value="Female" th:field="*{pSex}">
+				  <label for="female">Female</label><br>
+				  <input type="radio" id="other"  value="Other" th:field="*{pSex}">
+				  <label for="other">Other</label>
+            
+            </div>
+
+
+     <div class="col-md-12">
+      <p>Please provide your weight (lb)!</p>
+              <input class="form-control" type="number"  placeholder="Weight(lb)" th:field="*{pWeight}" min="1" required>
+             
+            </div>
+
+
+
+	<div class="form-check">
+	<br>
+	<p>Please provide your Activity Level</p>
+               <input type="radio" id="low"  value="Low" th:field="*{pActivity}">
+				  <label for="low">Low Activity</label><br>
+				  <input type="radio" id="average"  value="Average" th:field="*{pActivity}">
+				  <label for="average">Average Activity</label><br>
+				  <input type="radio" id="high"  value="High" th:field="*{pActivity}">
+				  <label for="high">High Activity</label>
+            
+            </div>
+
+
+
+
+			<br>
+			
+            <div class="form-button mt-3">
+              <button id="submit" type="submit" class="btn btn-primary">Create</button>
+              
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

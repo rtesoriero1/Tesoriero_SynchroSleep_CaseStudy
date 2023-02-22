@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Dream Journal</title>
+<link rel="stylesheet" type="text/css" href="dream.css">
+
+<link rel="stylesheet" type="text/css" href="register_style.css">
+<link
+	href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+	rel="stylesheet"
+	integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+	crossorigin="anonymous">
+<!-- Bootstrap credit: https://codepen.io/samnorton/pen/oNYajYM?hubs_content=blog.hubspot.com%252Fwebsite%252Fbootstrap-form-template&hubs_content-cta=registration%2520forms -->
+<style>
+.bg-dark {
+    background-color: #4A306D !important;
+     
+     }
+	
+		.form-body {
+   background-color:  #2D2D2F;
+
+}
+	
+	.form-holder {
+    text-align: center;
+     background-color:  #2D2D2F;
+}
+
+	.form-content {
+    text-align: center;
+     background-color:  #4A306D;
+}
+
+	.title {
+    text-align: center;
+   color:white;
+}
+
+
+*, body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+html, body {
+    height: 100%;
+    background-color: #152733;
+    overflow: hidden;
+}
+
+
+.form-holder {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      min-height: 100vh;
+}
+
+.form-holder .form-content {
+    position: relative;
+    text-align: center;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    padding: 60px;
+}
+
+.form-content .form-items {
+    border: 3px solid #fff;
+    padding: 40px;
+    display: inline-block;
+    width: 100%;
+    min-width: 540px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    text-align: left;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.form-content h3 {
+    color: #fff;
+    text-align: left;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.form-content h3.form-title {
+    margin-bottom: 30px;
+}
+
+.form-content p {
+    color: #fff;
+    text-align: left;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 20px;
+    margin-bottom: 30px;
+}
+
+
+.form-content label, .was-validated .form-check-input:invalid~.form-check-label, .was-validated .form-check-input:valid~.form-check-label{
+    color: #fff;
+}
+
+.form-content input[type=text], .form-content input[type=password], .form-content input[type=email], .form-content select {
+    width: 100%;
+    padding: 9px 20px;
+    text-align: left;
+    border: 0;
+    outline: 0;
+    border-radius: 6px;
+    background-color: #fff;
+    font-size: 15px;
+    font-weight: 300;
+    color: #8D8D8D;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    margin-top: 16px;
+}
+
+
+.btn-primary{
+    background-color: #6C757D;
+    outline: none;
+    border: 0px;
+     box-shadow: none;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active{
+    background-color: #495056;
+    outline: none !important;
+    border: none !important;
+     box-shadow: none;
+}
+
+.form-content textarea {
+    position: static !important;
+    width: 100%;
+    padding: 8px 20px;
+    border-radius: 6px;
+    text-align: left;
+    background-color: #fff;
+    border: 0;
+    font-size: 15px;
+    font-weight: 300;
+    color: #8D8D8D;
+    outline: none;
+    resize: none;
+    height: 120px;
+    -webkit-transition: none;
+    transition: none;
+    margin-bottom: 14px;
+}
+
+.form-content textarea:hover, .form-content textarea:focus {
+    border: 0;
+    background-color: #ebeff8;
+    color: #8D8D8D;
+}
+
+.mv-up{
+    margin-top: -9px !important;
+    margin-bottom: 8px !important;
+}
+
+.invalid-feedback{
+    color: #ff606e;
+}
+
+.valid-feedback{
+   color: #2acc80;
+}
+
+	</style>
+
+
+
+</head>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-dark">
+
+	<div class="container">
+		<button class="navbar-toggler" type="button"
+			data-mdb-toggle="collapse" data-mdb-target="#navbarButtonsExample"
+			aria-controls="navbarButtonsExample" aria-expanded="false"
+			aria-label="Toggle navigation">
+			<i class="fas fa-bars"></i>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarButtonsExample">
+
+			<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+				<li class="nav-item"><a class="nav-link" th:href="@{/hub}"><b>SynchroSleep</b></a>
+				</li>
+			</ul>
+
+			<div class="d-flex align-items-center">
+				<a th:href="@{/}" type="button" class="btn btn-outline-danger">Logout</a>
+			</div>
+		</div>
+	</div>
+</nav>
+<!-- Nav Bar -->
+
+<body>
+	<div class="title">
+		<h3>Your Dream Journal</h3>
+		<p>Here is a list of your dreams so far!</p>
+	</div>
+
+	<div class="form-body">
+		<div class="row">
+			<div class="form-holder">
+				<div class="form-content">
+					<div class="form-items">
+
+
+
+						<div>
+							<div id="alert-info" class="alert alert-info hidden" role="alert">
+								You have logged your latest dream!</div>
+						</div>
+
+
+
+						<table class="table table-bordered table-hover">
+							<thead class="table-dark">
+								<tr>
+									<th>Dreamt on</th>
+									<th>About</th>
+
+								</tr>
+							</thead>
+							<tbody>
+								<tr th:each="dream : ${dreams}">
+									<td th:text="${dream.dreamDate}"></td>
+									<td th:text="${dream.dreamJournal}"></td>
+
+
+								</tr>
+							</tbody>
+						</table>
+
+
+						<h3 id="dreamTitle">Last Night I dream about:</h3>
+						<form method="post" role="form" th:action="@{/dream/save}"
+							th:object="${dream}">
+
+
+
+							<div class="col-md-12">
+								<input class="form-control" type="text"
+									placeholder="My dream was..." th:field="*{dreamJournal}">
+								<div class="valid-feedback">Thank you!</div>
+								<div class="invalid-feedback">Tell us about your dream!</div>
+							</div>
+
+							<br>
+							<br>
+							
+							<div class="col-md-12">
+								<p>I had this dream on</p>
+								<input class="form-control" type="date"
+									placeholder="Security Code" th:field="*{dreamDate}"
+									maxlength="3">
+								<div class="valid-feedback">Thank you!</div>
+								<div class="invalid-feedback">Tell us when it was!</div>
+							</div>
+
+							<div class="form-button mt-3">
+								<button id="submit" type="submit" class="btn btn-primary">Enter</button>
+
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="/dream.js"></script>
+</body>
+
+</html>
