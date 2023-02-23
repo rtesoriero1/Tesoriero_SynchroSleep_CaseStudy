@@ -10,8 +10,8 @@ import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 
-import com.memory.demo.model.User;
-import com.memory.demo.repository.UserRepository;
+import com.tesoriero.synchrosleep.model.User;
+import com.tesoriero.synchrosleep.repository.UserRepository;
 
 @ExtendWith(MockitoExtension.class)
 public class UserRepositoryTest {

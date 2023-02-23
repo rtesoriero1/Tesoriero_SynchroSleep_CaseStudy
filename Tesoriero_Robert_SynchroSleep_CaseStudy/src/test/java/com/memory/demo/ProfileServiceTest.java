@@ -11,10 +11,10 @@ import org.junit.jupiter.api.Test;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 
-import com.memory.demo.model.Profile;
-import com.memory.demo.model.User;
-import com.memory.demo.repository.ProfileRepository;
-import com.memory.demo.service.ProfileService;
+import com.tesoriero.synchrosleep.model.Profile;
+import com.tesoriero.synchrosleep.model.User;
+import com.tesoriero.synchrosleep.repository.ProfileRepository;
+import com.tesoriero.synchrosleep.service.ProfileService;
 
 
 public class ProfileServiceTest {

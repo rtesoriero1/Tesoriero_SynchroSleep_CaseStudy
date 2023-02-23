@@ -12,9 +12,9 @@ import org.junit.jupiter.api.Test;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 
-import com.memory.demo.model.BankInfo;
-import com.memory.demo.repository.BankRepository;
-import com.memory.demo.service.BankService;
+import com.tesoriero.synchrosleep.model.BankInfo;
+import com.tesoriero.synchrosleep.repository.BankRepository;
+import com.tesoriero.synchrosleep.service.BankService;
 
 public class BankServiceTest {
 

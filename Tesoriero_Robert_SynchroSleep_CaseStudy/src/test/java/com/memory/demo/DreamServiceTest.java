@@ -11,9 +11,9 @@ import org.junit.jupiter.params.provider.ValueSource;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 
-import com.memory.demo.model.Dream;
-import com.memory.demo.repository.DreamRepository;
-import com.memory.demo.service.DreamService;
+import com.tesoriero.synchrosleep.model.Dream;
+import com.tesoriero.synchrosleep.repository.DreamRepository;
+import com.tesoriero.synchrosleep.service.DreamService;
 
 @ExtendWith(MockitoExtension.class)
 public class DreamServiceTest {

@@ -9,18 +9,24 @@
 	integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
 	crossorigin="anonymous">
 	
-	<style>
-
-.bg-dark {
+ <style>
+     
+     .bg-dark {
     background-color: #4A306D !important;
      
-
+     }
+     .table-dark {
+    --bs-table-bg: #4A306D;
+    }
     
     body {
      background-color:  #2D2D2F;
     }
     
- 
+    
+    .table {
+     background-color: #e8e6eb; 
+    }
     
     .btn-outline-danger {
     color: #e8e6eb;
@@ -37,14 +43,9 @@
    color:white;
 }
 
-.container {
-
- background-color:  #2D2D2F;
- text-align: center;
- 
-}
-
-</style>
+th { background-color: #ffd78c; }
+    
+     </style> 
 	
 	
 <title>Your Bedtime!</title>
@@ -75,14 +76,20 @@
 </nav>
 <!-- Nav Bar -->
 <div class= "container">
-<h1>Synchronize your Sleep by getting in bed at:</h1>
-<h2 th:text = "${night.nBed}"> </h2> 
+<h1 class="title">Synchronize your Sleep by getting in bed at:</h1>
+<h2 class="title" th:text = "${night.nBed}"> </h2> 
 <br>
 <br>
 <br>
 <br>
-<h3>Here's a sleep aid that might help! Sweet dreams.</h3>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/FdN1pnEaJs0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<h3 class="title">Here's a sleep aid that might help! Sweet dreams.</h3>
+<p style="text-align: center;">   
+<iframe align="center" width="560" height="315" src="https://www.youtube.com/embed/FdN1pnEaJs0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</p>
+
+
+
+
 </div>
 </body>
 </html>

@@ -11,9 +11,9 @@ import org.junit.jupiter.api.Test;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 
-import com.memory.demo.model.User;
-import com.memory.demo.repository.UserRepository;
-import com.memory.demo.service.UserService;
+import com.tesoriero.synchrosleep.model.User;
+import com.tesoriero.synchrosleep.repository.UserRepository;
+import com.tesoriero.synchrosleep.service.UserService;
 
 public class UserServiceTest {
 

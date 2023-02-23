@@ -12,18 +12,24 @@
 	
 	
 	
-<style>
-
-.bg-dark {
+ <style>
+     
+     .bg-dark {
     background-color: #4A306D !important;
      
-}
+     }
+     .table-dark {
+    --bs-table-bg: #4A306D;
+    }
     
     body {
      background-color:  #2D2D2F;
     }
     
- 
+    
+    .table {
+     background-color: #e8e6eb; 
+    }
     
     .btn-outline-danger {
     color: #e8e6eb;
@@ -40,12 +46,9 @@
    color:white;
 }
 
-.container {
-
- background-color:  #2D2D2F;
-}
-
-</style>
+th { background-color: #ffd78c; }
+    
+     </style>     
 </head>
 <body>
 
@@ -75,7 +78,7 @@
 
 <div class="container">
 
-<h1>What time would you like to wake up tomorrow?</h1>
+<h1 class="title">What time would you like to wake up tomorrow?</h1>
 
 <form method="post"
             role="form"
